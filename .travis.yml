@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: H1G/4D9OAklfAMaG9PRpTGH5htrhXvPLr4kEbyu9QjtYL/hcoCG/sQbKhR4X0Lvh9u93rj0JdFekrZFG03cbSpjSnjBo9FzQhZ78MAnHULQviO4QbGQwHKSAjCTqyFwhO87zoS+qjZOF9icHnNHMIHEpDScgbnrEucnGtfxovgN0t4hDpfyeXpACCC80qsor78L1gpmDX0miFwE7IKDmbS+5K9P8eo/EP7xNU3fRFGtdN6OA9hgU8sJYoe9phgNr3d6CQs3bP3k93iIEoJA5n6aPqIC13MWKDFaGM31md+/XsE/6mrvV4joWYWRDcKGet9uW+KdmhIq9RrWG/N1E9IcQJwu3nOXJGxuyz2hC+lfExKyhG8sLQihGzbNydnoph1bOYSqrlLcgU9hQV7+YO0wORjS+vCKv0D/0+lhT4ROdsbs6rkCoTAWprSajpfv9T1/qtmiZLgvdBQHzHtnS7p7gKIojGYiL7n0ysf16KjJZ5LW474yso6bpgxrh1lexDP+xk/V988dX3pkaB7quRZIYhEo2S5gKvXm1zqMcceCvGKYpV7f1x7VK6Pk2jWeX7FVj+btdVjRrN7iwWa8VSxmnzRbHLfoFgwbfkkcsxdWX1AUPYyik+1oSRp3MIEsGqc0SBI0TYlkehW//+wnPNRVlLcn/onmjNk4hguhCido=
+  app: damp-sands-42925
+  on:
+    repo: lbrantley/node-shopping-list-integration-tests
